@@ -3,7 +3,7 @@
  */
 
 import * as defs from '../../baseClass';
-import yourCustomFetch from '../../../yourCustomFetch';
+import pontFetch from 'src/utils/pontFetch';
 
 export class Params {
   /** Tags to filter by */
@@ -13,7 +13,7 @@ export class Params {
 export const init = [];
 
 export async function request(params) {
-  return yourCustomFetch({
+  return pontFetch({
     url: '/pet/findByTags',
     params,
     method: 'get',

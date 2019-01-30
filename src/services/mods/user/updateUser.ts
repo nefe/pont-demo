@@ -3,7 +3,7 @@
  */
 
 import * as defs from '../../baseClass';
-import yourCustomFetch from '../../../yourCustomFetch';
+import pontFetch from 'src/utils/pontFetch';
 
 export class Params {
   /** name that need to be updated */
@@ -13,7 +13,7 @@ export class Params {
 export const init = undefined;
 
 export async function request(params, bodyParams) {
-  return yourCustomFetch({
+  return pontFetch({
     url: '/user/{username}',
     params: bodyParams,
     method: 'put',

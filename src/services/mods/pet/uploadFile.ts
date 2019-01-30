@@ -3,7 +3,7 @@
  */
 
 import * as defs from '../../baseClass';
-import yourCustomFetch from '../../../yourCustomFetch';
+import pontFetch from 'src/utils/pontFetch';
 
 export class Params {
   /** ID of pet to update */
@@ -17,7 +17,7 @@ export class Params {
 export const init = new defs.ApiResponse();
 
 export async function request(params) {
-  return yourCustomFetch({
+  return pontFetch({
     url: '/pet/{petId}/uploadImage',
     params,
     method: 'post',

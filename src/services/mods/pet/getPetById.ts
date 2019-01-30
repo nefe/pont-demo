@@ -3,7 +3,7 @@
  */
 
 import * as defs from '../../baseClass';
-import yourCustomFetch from '../../../yourCustomFetch';
+import pontFetch from 'src/utils/pontFetch';
 
 export class Params {
   /** ID of pet to return */
@@ -13,7 +13,7 @@ export class Params {
 export const init = new defs.Pet();
 
 export async function request(params) {
-  return yourCustomFetch({
+  return pontFetch({
     url: '/pet/{petId}',
     params,
     method: 'get',

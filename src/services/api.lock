@@ -3,7 +3,6 @@
     "mods": [
       {
         "description": "Everything about your Pets",
-        "name": "pet",
         "interfaces": [
           {
             "consumes": [
@@ -18,7 +17,8 @@
               "isArr": false,
               "customType": "",
               "reference": "",
-              "enum": []
+              "enum": [],
+              "isTemplateRef": false
             },
             "parameters": [
               {
@@ -30,7 +30,8 @@
                   "isArr": false,
                   "customType": "",
                   "reference": "defs.Pet",
-                  "enum": []
+                  "enum": [],
+                  "isTemplateRef": false
                 }
               }
             ]
@@ -48,7 +49,8 @@
               "isArr": false,
               "customType": "",
               "reference": "",
-              "enum": []
+              "enum": [],
+              "isTemplateRef": false
             },
             "parameters": [
               {
@@ -60,7 +62,8 @@
                   "isArr": false,
                   "customType": "",
                   "reference": "defs.Pet",
-                  "enum": []
+                  "enum": [],
+                  "isTemplateRef": false
                 }
               }
             ]
@@ -74,7 +77,8 @@
               "isArr": true,
               "customType": "",
               "reference": "defs.Pet",
-              "enum": []
+              "enum": [],
+              "isTemplateRef": false
             },
             "parameters": [
               {
@@ -86,7 +90,8 @@
                   "isArr": true,
                   "customType": "",
                   "reference": "",
-                  "enum": []
+                  "enum": [],
+                  "isTemplateRef": false
                 }
               }
             ]
@@ -100,7 +105,8 @@
               "isArr": true,
               "customType": "",
               "reference": "defs.Pet",
-              "enum": []
+              "enum": [],
+              "isTemplateRef": false
             },
             "parameters": [
               {
@@ -112,7 +118,8 @@
                   "isArr": true,
                   "customType": "",
                   "reference": "",
-                  "enum": []
+                  "enum": [],
+                  "isTemplateRef": false
                 }
               }
             ]
@@ -126,7 +133,8 @@
               "isArr": false,
               "customType": "",
               "reference": "defs.Pet",
-              "enum": []
+              "enum": [],
+              "isTemplateRef": false
             },
             "parameters": [
               {
@@ -139,6 +147,7 @@
                   "customType": "",
                   "reference": "",
                   "enum": [],
+                  "isTemplateRef": false,
                   "primitiveType": "number"
                 }
               }
@@ -156,7 +165,8 @@
               "isArr": false,
               "customType": "",
               "reference": "",
-              "enum": []
+              "enum": [],
+              "isTemplateRef": false
             },
             "parameters": [
               {
@@ -169,6 +179,7 @@
                   "customType": "",
                   "reference": "",
                   "enum": [],
+                  "isTemplateRef": false,
                   "primitiveType": "number"
                 }
               },
@@ -182,6 +193,7 @@
                   "customType": "",
                   "reference": "",
                   "enum": [],
+                  "isTemplateRef": false,
                   "primitiveType": "string"
                 }
               },
@@ -195,6 +207,7 @@
                   "customType": "",
                   "reference": "",
                   "enum": [],
+                  "isTemplateRef": false,
                   "primitiveType": "string"
                 }
               }
@@ -209,7 +222,8 @@
               "isArr": false,
               "customType": "",
               "reference": "",
-              "enum": []
+              "enum": [],
+              "isTemplateRef": false
             },
             "parameters": [
               {
@@ -221,6 +235,7 @@
                   "customType": "",
                   "reference": "",
                   "enum": [],
+                  "isTemplateRef": false,
                   "primitiveType": "string"
                 }
               },
@@ -234,6 +249,7 @@
                   "customType": "",
                   "reference": "",
                   "enum": [],
+                  "isTemplateRef": false,
                   "primitiveType": "number"
                 }
               }
@@ -251,7 +267,8 @@
               "isArr": false,
               "customType": "",
               "reference": "defs.ApiResponse",
-              "enum": []
+              "enum": [],
+              "isTemplateRef": false
             },
             "parameters": [
               {
@@ -264,6 +281,7 @@
                   "customType": "",
                   "reference": "",
                   "enum": [],
+                  "isTemplateRef": false,
                   "primitiveType": "number"
                 }
               },
@@ -277,6 +295,7 @@
                   "customType": "",
                   "reference": "",
                   "enum": [],
+                  "isTemplateRef": false,
                   "primitiveType": "string"
                 }
               },
@@ -290,16 +309,17 @@
                   "customType": "",
                   "reference": "",
                   "enum": [],
+                  "isTemplateRef": false,
                   "primitiveType": "File"
                 }
               }
             ]
           }
-        ]
+        ],
+        "name": "pet"
       },
       {
         "description": "Access to Petstore orders",
-        "name": "store",
         "interfaces": [
           {
             "description": "Returns pet inventories by status",
@@ -310,7 +330,8 @@
               "isArr": false,
               "customType": "",
               "reference": "",
-              "enum": []
+              "enum": [],
+              "isTemplateRef": false
             },
             "parameters": []
           },
@@ -323,7 +344,8 @@
               "isArr": false,
               "customType": "",
               "reference": "defs.Order",
-              "enum": []
+              "enum": [],
+              "isTemplateRef": false
             },
             "parameters": [
               {
@@ -335,7 +357,8 @@
                   "isArr": false,
                   "customType": "",
                   "reference": "defs.Order",
-                  "enum": []
+                  "enum": [],
+                  "isTemplateRef": false
                 }
               }
             ]
@@ -349,7 +372,8 @@
               "isArr": false,
               "customType": "",
               "reference": "defs.Order",
-              "enum": []
+              "enum": [],
+              "isTemplateRef": false
             },
             "parameters": [
               {
@@ -362,6 +386,7 @@
                   "customType": "",
                   "reference": "",
                   "enum": [],
+                  "isTemplateRef": false,
                   "primitiveType": "number"
                 }
               }
@@ -376,7 +401,8 @@
               "isArr": false,
               "customType": "",
               "reference": "",
-              "enum": []
+              "enum": [],
+              "isTemplateRef": false
             },
             "parameters": [
               {
@@ -389,16 +415,17 @@
                   "customType": "",
                   "reference": "",
                   "enum": [],
+                  "isTemplateRef": false,
                   "primitiveType": "number"
                 }
               }
             ]
           }
-        ]
+        ],
+        "name": "store"
       },
       {
         "description": "Operations about user",
-        "name": "user",
         "interfaces": [
           {
             "description": "Create user",
@@ -409,7 +436,8 @@
               "isArr": false,
               "customType": "",
               "reference": "",
-              "enum": []
+              "enum": [],
+              "isTemplateRef": false
             },
             "parameters": [
               {
@@ -421,7 +449,8 @@
                   "isArr": false,
                   "customType": "",
                   "reference": "defs.User",
-                  "enum": []
+                  "enum": [],
+                  "isTemplateRef": false
                 }
               }
             ]
@@ -435,7 +464,8 @@
               "isArr": false,
               "customType": "",
               "reference": "",
-              "enum": []
+              "enum": [],
+              "isTemplateRef": false
             },
             "parameters": [
               {
@@ -447,7 +477,8 @@
                   "isArr": false,
                   "customType": "",
                   "reference": "",
-                  "enum": []
+                  "enum": [],
+                  "isTemplateRef": false
                 }
               }
             ]
@@ -461,7 +492,8 @@
               "isArr": false,
               "customType": "",
               "reference": "",
-              "enum": []
+              "enum": [],
+              "isTemplateRef": false
             },
             "parameters": [
               {
@@ -473,7 +505,8 @@
                   "isArr": false,
                   "customType": "",
                   "reference": "",
-                  "enum": []
+                  "enum": [],
+                  "isTemplateRef": false
                 }
               }
             ]
@@ -488,6 +521,7 @@
               "customType": "",
               "reference": "",
               "enum": [],
+              "isTemplateRef": false,
               "primitiveType": "string"
             },
             "parameters": [
@@ -501,6 +535,7 @@
                   "customType": "",
                   "reference": "",
                   "enum": [],
+                  "isTemplateRef": false,
                   "primitiveType": "string"
                 }
               },
@@ -514,6 +549,7 @@
                   "customType": "",
                   "reference": "",
                   "enum": [],
+                  "isTemplateRef": false,
                   "primitiveType": "string"
                 }
               }
@@ -528,7 +564,8 @@
               "isArr": false,
               "customType": "",
               "reference": "",
-              "enum": []
+              "enum": [],
+              "isTemplateRef": false
             },
             "parameters": []
           },
@@ -541,7 +578,8 @@
               "isArr": false,
               "customType": "",
               "reference": "defs.User",
-              "enum": []
+              "enum": [],
+              "isTemplateRef": false
             },
             "parameters": [
               {
@@ -554,6 +592,7 @@
                   "customType": "",
                   "reference": "",
                   "enum": [],
+                  "isTemplateRef": false,
                   "primitiveType": "string"
                 }
               }
@@ -568,7 +607,8 @@
               "isArr": false,
               "customType": "",
               "reference": "",
-              "enum": []
+              "enum": [],
+              "isTemplateRef": false
             },
             "parameters": [
               {
@@ -581,6 +621,7 @@
                   "customType": "",
                   "reference": "",
                   "enum": [],
+                  "isTemplateRef": false,
                   "primitiveType": "string"
                 }
               },
@@ -593,7 +634,8 @@
                   "isArr": false,
                   "customType": "",
                   "reference": "defs.User",
-                  "enum": []
+                  "enum": [],
+                  "isTemplateRef": false
                 }
               }
             ]
@@ -607,7 +649,8 @@
               "isArr": false,
               "customType": "",
               "reference": "",
-              "enum": []
+              "enum": [],
+              "isTemplateRef": false
             },
             "parameters": [
               {
@@ -620,12 +663,14 @@
                   "customType": "",
                   "reference": "",
                   "enum": [],
+                  "isTemplateRef": false,
                   "primitiveType": "string"
                 }
               }
             ]
           }
-        ]
+        ],
+        "name": "user"
       }
     ],
     "baseClasses": [
@@ -638,6 +683,7 @@
               "customType": "",
               "reference": "",
               "enum": [],
+              "isTemplateRef": false,
               "primitiveType": "number"
             },
             "name": "code"
@@ -648,6 +694,7 @@
               "customType": "",
               "reference": "",
               "enum": [],
+              "isTemplateRef": false,
               "primitiveType": "string"
             },
             "name": "message"
@@ -658,6 +705,7 @@
               "customType": "",
               "reference": "",
               "enum": [],
+              "isTemplateRef": false,
               "primitiveType": "string"
             },
             "name": "type"
@@ -673,6 +721,7 @@
               "customType": "",
               "reference": "",
               "enum": [],
+              "isTemplateRef": false,
               "primitiveType": "number"
             },
             "name": "id"
@@ -683,6 +732,7 @@
               "customType": "",
               "reference": "",
               "enum": [],
+              "isTemplateRef": false,
               "primitiveType": "string"
             },
             "name": "name"
@@ -698,6 +748,7 @@
               "customType": "",
               "reference": "",
               "enum": [],
+              "isTemplateRef": false,
               "primitiveType": "boolean"
             },
             "name": "complete"
@@ -708,6 +759,7 @@
               "customType": "",
               "reference": "",
               "enum": [],
+              "isTemplateRef": false,
               "primitiveType": "number"
             },
             "name": "id"
@@ -718,6 +770,7 @@
               "customType": "",
               "reference": "",
               "enum": [],
+              "isTemplateRef": false,
               "primitiveType": "number"
             },
             "name": "petId"
@@ -728,6 +781,7 @@
               "customType": "",
               "reference": "",
               "enum": [],
+              "isTemplateRef": false,
               "primitiveType": "number"
             },
             "name": "quantity"
@@ -738,6 +792,7 @@
               "customType": "",
               "reference": "",
               "enum": [],
+              "isTemplateRef": false,
               "primitiveType": "string"
             },
             "name": "shipDate"
@@ -752,6 +807,7 @@
                 "approved",
                 "delivered"
               ],
+              "isTemplateRef": false,
               "primitiveType": "string"
             },
             "name": "status",
@@ -767,7 +823,8 @@
               "isArr": false,
               "customType": "",
               "reference": "defs.Category",
-              "enum": []
+              "enum": [],
+              "isTemplateRef": false
             },
             "name": "category"
           },
@@ -777,6 +834,7 @@
               "customType": "",
               "reference": "",
               "enum": [],
+              "isTemplateRef": false,
               "primitiveType": "number"
             },
             "name": "id"
@@ -787,6 +845,7 @@
               "customType": "",
               "reference": "",
               "enum": [],
+              "isTemplateRef": false,
               "primitiveType": "string"
             },
             "name": "name"
@@ -796,7 +855,8 @@
               "isArr": true,
               "customType": "",
               "reference": "",
-              "enum": []
+              "enum": [],
+              "isTemplateRef": false
             },
             "name": "photoUrls"
           },
@@ -810,6 +870,7 @@
                 "pending",
                 "sold"
               ],
+              "isTemplateRef": false,
               "primitiveType": "string"
             },
             "name": "status",
@@ -820,7 +881,8 @@
               "isArr": true,
               "customType": "",
               "reference": "defs.Tag",
-              "enum": []
+              "enum": [],
+              "isTemplateRef": false
             },
             "name": "tags"
           }
@@ -835,6 +897,7 @@
               "customType": "",
               "reference": "",
               "enum": [],
+              "isTemplateRef": false,
               "primitiveType": "number"
             },
             "name": "id"
@@ -845,6 +908,7 @@
               "customType": "",
               "reference": "",
               "enum": [],
+              "isTemplateRef": false,
               "primitiveType": "string"
             },
             "name": "name"
@@ -860,6 +924,7 @@
               "customType": "",
               "reference": "",
               "enum": [],
+              "isTemplateRef": false,
               "primitiveType": "string"
             },
             "name": "email"
@@ -870,6 +935,7 @@
               "customType": "",
               "reference": "",
               "enum": [],
+              "isTemplateRef": false,
               "primitiveType": "string"
             },
             "name": "firstName"
@@ -880,6 +946,7 @@
               "customType": "",
               "reference": "",
               "enum": [],
+              "isTemplateRef": false,
               "primitiveType": "number"
             },
             "name": "id"
@@ -890,6 +957,7 @@
               "customType": "",
               "reference": "",
               "enum": [],
+              "isTemplateRef": false,
               "primitiveType": "string"
             },
             "name": "lastName"
@@ -900,6 +968,7 @@
               "customType": "",
               "reference": "",
               "enum": [],
+              "isTemplateRef": false,
               "primitiveType": "string"
             },
             "name": "password"
@@ -910,6 +979,7 @@
               "customType": "",
               "reference": "",
               "enum": [],
+              "isTemplateRef": false,
               "primitiveType": "string"
             },
             "name": "phone"
@@ -920,6 +990,7 @@
               "customType": "",
               "reference": "",
               "enum": [],
+              "isTemplateRef": false,
               "primitiveType": "number"
             },
             "name": "userStatus",
@@ -931,6 +1002,7 @@
               "customType": "",
               "reference": "",
               "enum": [],
+              "isTemplateRef": false,
               "primitiveType": "string"
             },
             "name": "username"

@@ -1,17 +1,11 @@
-import "./services/";
+import './services/';
 
 // defs 包含所有公共类型
-const pet = {
-  category: "",
-  id: 1,
-  name: "",
-  photoUrls: [],
-  status: "pending"
-} as defs.Pet;
+const pet = new defs.Pet();
+
+pet.status;
 
 // API 包含所有接口
-API.pet.addPet.request({}, pet);
-
 API.pet.getPetById
   .request({
     petId: 3
@@ -19,3 +13,5 @@ API.pet.getPetById
   .then(p => {
     console.log(p.name);
   });
+
+API.pet.addPet.request({}, pet);
